@@ -1,0 +1,24 @@
+<div class="sql-list">
+
+
+
+  <% @users.each do |user| %>
+
+
+
+    <div class="profile">
+
+      <div class="prf-img" style=" background-image:url(<%= "/user_images/#{user.image_name}" %>) ; "></div>
+
+      <div class="prf-content">
+        <h3><%= link_to(user.name,"/users/#{user.id}") %></h3>
+        <%= user.country %>
+
+      </div>
+
+
+    </div>
+
+
+  <% end %>
+</div>

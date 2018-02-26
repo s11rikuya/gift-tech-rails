@@ -1,0 +1,23 @@
+<div class="sql-list">
+
+
+
+  <% @projects.each do |project| %>
+
+
+
+    <div class="profile">
+
+      <div class="prf-img" style=" background-image:url(<%= "/user_images/#{project.image_name}" %>) ; "></div>
+
+      <div class="prf-content">
+        <h3><%= project.name %></h3>
+
+      </div>
+
+
+    </div>
+
+
+  <% end %>
+</div>

@@ -1,0 +1,226 @@
+* {
+  font-family: 'Saira', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+.form-box {
+  border-bottom: solid black;
+  padding: 5px;
+}
+
+.form-box-left {
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.form-box-left img {
+  height:50px;
+
+}
+
+.form-box-right {
+  margin-right: 10px;
+  float: right;
+}
+
+.new-user {
+  border: solid black;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.new-user a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+.middle {
+  width: 95%;
+  margin: auto;
+
+}
+
+.menu {
+  margin: 10px 25px;
+
+}
+
+.sort {
+  display: inline-block;
+}
+
+.delete {
+  display: inline-block;
+}
+
+.sql-list {
+  margin:0 auto;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.profile {
+  border: solid black;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+
+  border-radius: 10px;
+}
+
+.prf-img {
+  background-size: cover;
+  background-position: center;
+  width: 120px;
+  height: 120px;
+  border: solid black;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.prf-img-post {
+  background-size: cover;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border: solid black;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.profile a {
+  text-decoration: none;
+  margin: 5px;
+}
+
+.profile .element {
+  display: inline-block;
+  vertical-align: middle;
+  border: solid;
+  width: 100px;
+  height: 20px;
+  margin: 5px;
+}
+
+.profile .element p {
+  font-weight: bold;
+  line-height: 20px;
+  margin: 0px;
+}
+
+
+.profile h3 {
+  margin: 0px;
+}
+
+.profile p {
+  margin: 5px auto 15px auto;
+}
+
+
+
+.profile-in {
+  margin: 0 auto;
+  padding: 100px 0;
+
+  text-align: center;
+  width: 80%;
+  display: inline-block;
+}
+
+
+
+
+.prf-img-in {
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+  border: solid black;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+
+.profile-in a {
+  text-decoration: none;
+  margin: 5px;
+}
+
+.profile-in h3 {
+  margin: 0px;
+}
+
+.profile-in p {
+  margin: 5px auto 15px auto;
+}
+
+.introduction {
+  text-align: center;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.rowCount {
+  text-align: center;
+  margin: auto;
+}
+
+input, button, textarea, select {
+  margin: 0;
+  padding: 2px;
+  background: none;
+  border: solid black;
+  border-radius: 3px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+footer {
+  border-top: black solid;
+  padding: 5px;
+}
+
+form {
+}
+
+
+
+.border {
+  border-top: solid black;
+
+}
+
+.footer-input {
+  width: 25%;
+
+}
+
+
+@media screen and (max-width:300px) {
+  .profile {
+    border: solid black;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    display: inline-block;
+    vertical-align: middle;
+
+    border-radius: 10px;
+  }
+
+}

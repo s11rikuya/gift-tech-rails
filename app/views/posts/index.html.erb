@@ -1,0 +1,28 @@
+<div class="sql-list">
+
+
+
+  <% @posts.each do |post| %>
+
+
+
+  <div class="profile">
+    <h3><%= post.user.name %></h3>
+    <div class="prf-img-post" style=" background-image:url(<%= "/user_images/#{post.user.image_name}" %>) ; "></div>
+
+
+
+    <div class="prf-content">
+
+      <h1><%= post.power %>p</h1>
+      <p><%= post.content %></p>
+
+
+    </div>
+
+
+  </div>
+
+
+  <% end %>
+</div>

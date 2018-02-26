@@ -1,0 +1,30 @@
+
+<div class="sql-list">
+
+<%= form_tag("/users/create") do %>
+  <div class="profile-in">
+
+
+    <div class="prf-content">
+      <p><input type="text" name="name" placeholder="name"></p>
+      <p><input type="text" name="email" placeholder="email"></p>
+      <p><input type="text" name="password" placeholder="password"></p>
+
+      <p><select name="country">
+        <option value="">Country</option>
+        <option value="Cebu">Cebu</option>
+        <option value="Bangkok">Bangkok</option>
+        <option value="Kuching">Kuching</option>
+        <option value="Vientiane">Vientiane</option>
+      </select></p>
+      <textarea name="introduction" placeholder="introduction"　rows="4"></textarea>
+
+    </div>
+
+
+  </div>
+
+  <p><input type="submit" value="save"></p>
+  <% end %>
+
+</div>
